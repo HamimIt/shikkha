@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
+
+    <ImageView
+        android:id="@+id/button_img_id"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/tututl" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/button_txt_id"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Tutul babar chele"
+        android:layout_below="@+id/button_img_id" />
+
+
+</RelativeLayout>
